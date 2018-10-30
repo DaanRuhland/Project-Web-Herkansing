@@ -1,0 +1,27 @@
+@font-face {
+     font-family: dfds-light;
+     src: url('Font/dfds-light.ttf');
+
+}
+
+    * { font-family: dfds-light, sans-serif; }
+
+body {
+    background-color: lightblue;
+}
+
+h1 {
+    color: navy;
+    margin-left: 2em;
+
+}
+
+    p, h1, h2, h3 {
+    max-width: 30em;
+}
+
+article {
+  -webkit-columns: 3 10em;
+     -moz-columns: 3 10em;
+          columns: 3 10em;
+}

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulier</title>
+    <link rel="stylesheet" type="text/css" href="verhaal.css">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+</head>
+
+<body>
+<main>
+
+
+
+
+<header>
+    <img src="img/logo.png" alt="DFDS logo" height="100" width="200" onclick="window.location.href='../projectweb mic/Overzichtpagina.html'">
+    <h1>DFDS verhalen</h1>
+    <button class="button" onclick="window.location.href='../projectweb mic/formulier.html'">Aanmelden</button>
+    <button class="button" id="toggle2" onClick="myFunction()">Verhalen zoeken</button>
+</header>
+
+<section>
+    <img src="img/neerslachtig1.png" class="scherm1">
+    <img src="img/neerslachtig2.jpg" class="scherm2">
+    <img src="img/neerslachtig3.jpg" class="scherm3">
+</section>
+
+<footer>
+
+    <h2>Verhaal opslaan</h2>
+    <button class="button" id="toggle" onClick="myFunction()">Opslaan</button>
+
+
+
+
+</footer>
+
+<article>
+    <h2>Gelukt!</h2>
+    <p>Uw verhaal is toegevoegd aan uw lijst met verhalen.</p>
+
+</article>
+
+
+
+        <script>
+    $('button').on('click', function(){
+    $('button').removeClass('selected');
+    $(this).addClass('selected');
+
+});
+
+
+    </script>
+
+    <script>
+$("button").click(function(){
+    $("article").show(1000) .delay(2000) .hide(1000);
+});
+</script>
+
+<script>
+
+            function myFunction() {
+                var change = document.getElementById("toggle");
+                if (change.innerHTML == "Opslaan")
+                {
+                    change.innerHTML = "Opgeslagen";
+                }
+                else {
+                    change.innerHTML = "Opgeslagen";
+                }
+            }
+
+        </script>
+
+
+
+</main>
+</body>
+
+</html>
+

@@ -1,0 +1,15 @@
+body > header > button:first-of-type{
+    align-self: flex-end;
+    position: relative;
+    margin-top: auto;
+    margin-bottom: auto;
+    border: none;
+    height: 2em;
+    width: 2em;
+    padding: 1.3em;
+    background-image: url("img/heartbutton.png");
+    background-size: cover;
+    background-color: transparent;
+}
+
+

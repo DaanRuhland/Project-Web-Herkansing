@@ -1,0 +1,166 @@
+@font-face {
+     font-family: dfds-light;
+     src: url('Font/dfds-light.ttf');
+
+}
+
+@font-face {
+     font-family: 'dfds-bold';
+     src: url('Font/dfds-bold.ttf');
+
+}
+
+    * { font-family: dfds-light, sans-serif; }
+
+header {
+    display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+
+  -webkit-flex-flow: row wrap;
+  justify-content: space-around;
+    flex-grow: 1;
+        background-color: white;
+        margin: 0 auto;
+        padding: 1em;
+
+}
+
+h1 {
+    font-family: 'dfds-bold';
+    padding: 1rem;
+    background-color: white;
+    margin: 1rem;
+
+
+}
+
+
+fieldset {
+        background-color: white;
+        margin: 0 auto;
+        padding-left: 1em;
+
+    overflow: hidden;
+}
+
+
+
+section {
+    margin: auto;
+    padding-top: 7em;
+    display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+
+  -webkit-flex-flow: row wrap;
+    justify-content: center;
+
+}
+
+
+input {
+    display:block;
+    width: 100%;
+    padding: 1em 2em;
+    margin: 0.5em 0;
+    box-sizing: border-box;
+}
+
+button {
+    float: right;
+    background-color: rgb(246,134,31);
+    border: none;
+    color: white;
+    padding: 1em 2em;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1em;
+}
+
+fieldset {
+
+max-width: 50em;
+
+
+  -webkit-box-sizing: border-box; /* For legacy WebKit based browsers */
+     -moz-box-sizing: border-box; /* For legacy (Firefox <29) Gecko based browsers */
+          box-sizing: border-box;
+
+}
+
+.registreren {
+    max-width: 200px;
+
+}
+
+.login {
+
+
+}
+
+
+
+
+body {
+    background-color: rgb(238,240,241);
+}
+
+h1 {
+    color: navy;
+    margin-left: 2em;
+
+}
+
+input{
+  -webkit-transition: all 0.30s ease-in-out;
+  -moz-transition: all 0.30s ease-in-out;
+  -ms-transition: all 0.30s ease-in-out;
+  -o-transition: all 0.30s ease-in-out;
+  outline: none;
+  padding: 0.3em 0.3em 0.3em 0.3em;
+  margin: 0.8em 0.6em 0.3em 0em;
+  border: o.15em solid #DDDDDD;
+}
+
+input[type=text]:focus, input:focus {
+  box-shadow: 0 0 0.5em rgb(246,134,31);
+  padding: 0.3em 0.3em 0.3em 0.3em;
+  margin: 0.8em 0.6em 0.3em 0em;
+  border: 0.5em solid rgb(246,134,31);
+}
+
+input:valid {
+    box-shadow: 0 0 0.5em rgb(246,134,31);
+  padding: 0.3em 0.3em 0.3em 0.3em;
+  margin: 0.8em 0.6em 0.3em 0em;
+  border: 0.5em solid green;
+}
+
+
+
+
+
+
+@media (max-width: 25em) {
+
+    img{
+        widht:3em;
+        height: 3em;
+    }
+
+    h1 {
+     display: none;
+    }
+
+     section {
+         padding-top: 1em;
+     }
+}
+
+
