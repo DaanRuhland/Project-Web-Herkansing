@@ -12,4 +12,8 @@ body > header > button:first-of-type{
     background-color: transparent;
 }
 
+body>header>button:last-of-type {
+    margin-left: 1em;
+}
+
 
